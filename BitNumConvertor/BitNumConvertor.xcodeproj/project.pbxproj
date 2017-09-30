@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ECE36F71E311D54007B401B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE36F61E311D54007B401B /* AppDelegate.swift */; };
+		8ECE36F91E311D54007B401B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE36F81E311D54007B401B /* ViewController.swift */; };
+		8ECE36FC1E311D54007B401B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE36FA1E311D54007B401B /* Main.storyboard */; };
+		8ECE36FE1E311D54007B401B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE36FD1E311D54007B401B /* Assets.xcassets */; };
+		8ECE37011E311D54007B401B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE36FF1E311D54007B401B /* LaunchScreen.storyboard */; };
+		8ECE370C1E311D54007B401B /* BitNumConvertorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE370B1E311D54007B401B /* BitNumConvertorTests.swift */; };
+		8ECE37171E311D54007B401B /* BitNumConvertorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE37161E311D54007B401B /* BitNumConvertorUITests.swift */; };
+		8ECE37251E311E33007B401B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE37241E311E33007B401B /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ECE37081E311D54007B401B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECE36EB1E311D54007B401B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECE36F21E311D54007B401B;
+			remoteInfo = BitNumConvertor;
+		};
+		8ECE37131E311D54007B401B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ECE36EB1E311D54007B401B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECE36F21E311D54007B401B;
+			remoteInfo = BitNumConvertor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ECE36F31E311D54007B401B /* BitNumConvertor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitNumConvertor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECE36F61E311D54007B401B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8ECE36F81E311D54007B401B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8ECE36FB1E311D54007B401B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8ECE36FD1E311D54007B401B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8ECE37001E311D54007B401B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8ECE37021E311D54007B401B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECE37071E311D54007B401B /* BitNumConvertorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitNumConvertorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECE370B1E311D54007B401B /* BitNumConvertorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitNumConvertorTests.swift; sourceTree = "<group>"; };
+		8ECE370D1E311D54007B401B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECE37121E311D54007B401B /* BitNumConvertorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitNumConvertorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECE37161E311D54007B401B /* BitNumConvertorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitNumConvertorUITests.swift; sourceTree = "<group>"; };
+		8ECE37181E311D54007B401B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ECE37241E311E33007B401B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ECE36F01E311D54007B401B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECE37041E311D54007B401B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECE370F1E311D54007B401B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ECE36EA1E311D54007B401B = {
+			isa = PBXGroup;
+			children = (
+				8ECE36F51E311D54007B401B /* BitNumConvertor */,
+				8ECE370A1E311D54007B401B /* BitNumConvertorTests */,
+				8ECE37151E311D54007B401B /* BitNumConvertorUITests */,
+				8ECE36F41E311D54007B401B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ECE36F41E311D54007B401B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE36F31E311D54007B401B /* BitNumConvertor.app */,
+				8ECE37071E311D54007B401B /* BitNumConvertorTests.xctest */,
+				8ECE37121E311D54007B401B /* BitNumConvertorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ECE36F51E311D54007B401B /* BitNumConvertor */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE36F61E311D54007B401B /* AppDelegate.swift */,
+				8ECE36F81E311D54007B401B /* ViewController.swift */,
+				8ECE36FA1E311D54007B401B /* Main.storyboard */,
+				8ECE37241E311E33007B401B /* Images.xcassets */,
+				8ECE36FD1E311D54007B401B /* Assets.xcassets */,
+				8ECE36FF1E311D54007B401B /* LaunchScreen.storyboard */,
+				8ECE37021E311D54007B401B /* Info.plist */,
+			);
+			path = BitNumConvertor;
+			sourceTree = "<group>";
+		};
+		8ECE370A1E311D54007B401B /* BitNumConvertorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE370B1E311D54007B401B /* BitNumConvertorTests.swift */,
+				8ECE370D1E311D54007B401B /* Info.plist */,
+			);
+			path = BitNumConvertorTests;
+			sourceTree = "<group>";
+		};
+		8ECE37151E311D54007B401B /* BitNumConvertorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8ECE37161E311D54007B401B /* BitNumConvertorUITests.swift */,
+				8ECE37181E311D54007B401B /* Info.plist */,
+			);
+			path = BitNumConvertorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ECE36F21E311D54007B401B /* BitNumConvertor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECE371B1E311D54007B401B /* Build configuration list for PBXNativeTarget "BitNumConvertor" */;
+			buildPhases = (
+				8ECE36EF1E311D54007B401B /* Sources */,
+				8ECE36F01E311D54007B401B /* Frameworks */,
+				8ECE36F11E311D54007B401B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitNumConvertor;
+			productName = BitNumConvertor;
+			productReference = 8ECE36F31E311D54007B401B /* BitNumConvertor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ECE37061E311D54007B401B /* BitNumConvertorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECE371E1E311D54007B401B /* Build configuration list for PBXNativeTarget "BitNumConvertorTests" */;
+			buildPhases = (
+				8ECE37031E311D54007B401B /* Sources */,
+				8ECE37041E311D54007B401B /* Frameworks */,
+				8ECE37051E311D54007B401B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECE37091E311D54007B401B /* PBXTargetDependency */,
+			);
+			name = BitNumConvertorTests;
+			productName = BitNumConvertorTests;
+			productReference = 8ECE37071E311D54007B401B /* BitNumConvertorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8ECE37111E311D54007B401B /* BitNumConvertorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ECE37211E311D54007B401B /* Build configuration list for PBXNativeTarget "BitNumConvertorUITests" */;
+			buildPhases = (
+				8ECE370E1E311D54007B401B /* Sources */,
+				8ECE370F1E311D54007B401B /* Frameworks */,
+				8ECE37101E311D54007B401B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ECE37141E311D54007B401B /* PBXTargetDependency */,
+			);
+			name = BitNumConvertorUITests;
+			productName = BitNumConvertorUITests;
+			productReference = 8ECE37121E311D54007B401B /* BitNumConvertorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ECE36EB1E311D54007B401B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zeal Yim";
+				TargetAttributes = {
+					8ECE36F21E311D54007B401B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W7E4GK97H4;
+						ProvisioningStyle = Automatic;
+					};
+					8ECE37061E311D54007B401B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8ECE36F21E311D54007B401B;
+					};
+					8ECE37111E311D54007B401B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8ECE36F21E311D54007B401B;
+					};
+				};
+			};
+			buildConfigurationList = 8ECE36EE1E311D54007B401B /* Build configuration list for PBXProject "BitNumConvertor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ECE36EA1E311D54007B401B;
+			productRefGroup = 8ECE36F41E311D54007B401B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ECE36F21E311D54007B401B /* BitNumConvertor */,
+				8ECE37061E311D54007B401B /* BitNumConvertorTests */,
+				8ECE37111E311D54007B401B /* BitNumConvertorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ECE36F11E311D54007B401B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECE37011E311D54007B401B /* LaunchScreen.storyboard in Resources */,
+				8ECE37251E311E33007B401B /* Images.xcassets in Resources */,
+				8ECE36FE1E311D54007B401B /* Assets.xcassets in Resources */,
+				8ECE36FC1E311D54007B401B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECE37051E311D54007B401B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECE37101E311D54007B401B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ECE36EF1E311D54007B401B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECE36F91E311D54007B401B /* ViewController.swift in Sources */,
+				8ECE36F71E311D54007B401B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECE37031E311D54007B401B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECE370C1E311D54007B401B /* BitNumConvertorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECE370E1E311D54007B401B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECE37171E311D54007B401B /* BitNumConvertorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ECE37091E311D54007B401B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECE36F21E311D54007B401B /* BitNumConvertor */;
+			targetProxy = 8ECE37081E311D54007B401B /* PBXContainerItemProxy */;
+		};
+		8ECE37141E311D54007B401B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECE36F21E311D54007B401B /* BitNumConvertor */;
+			targetProxy = 8ECE37131E311D54007B401B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8ECE36FA1E311D54007B401B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECE36FB1E311D54007B401B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8ECE36FF1E311D54007B401B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8ECE37001E311D54007B401B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8ECE37191E311D54007B401B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8ECE371A1E311D54007B401B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ECE371C1E311D54007B401B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7E4GK97H4;
+				INFOPLIST_FILE = BitNumConvertor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zealyim.BitNumConvertor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8ECE371D1E311D54007B401B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W7E4GK97H4;
+				INFOPLIST_FILE = BitNumConvertor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zealyim.BitNumConvertor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8ECE371F1E311D54007B401B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitNumConvertorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zealyim.BitNumConvertorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitNumConvertor.app/BitNumConvertor";
+			};
+			name = Debug;
+		};
+		8ECE37201E311D54007B401B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BitNumConvertorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zealyim.BitNumConvertorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitNumConvertor.app/BitNumConvertor";
+			};
+			name = Release;
+		};
+		8ECE37221E311D54007B401B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BitNumConvertorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zealyim.BitNumConvertorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BitNumConvertor;
+			};
+			name = Debug;
+		};
+		8ECE37231E311D54007B401B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BitNumConvertorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zealyim.BitNumConvertorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BitNumConvertor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ECE36EE1E311D54007B401B /* Build configuration list for PBXProject "BitNumConvertor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECE37191E311D54007B401B /* Debug */,
+				8ECE371A1E311D54007B401B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ECE371B1E311D54007B401B /* Build configuration list for PBXNativeTarget "BitNumConvertor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECE371C1E311D54007B401B /* Debug */,
+				8ECE371D1E311D54007B401B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8ECE371E1E311D54007B401B /* Build configuration list for PBXNativeTarget "BitNumConvertorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECE371F1E311D54007B401B /* Debug */,
+				8ECE37201E311D54007B401B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8ECE37211E311D54007B401B /* Build configuration list for PBXNativeTarget "BitNumConvertorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ECE37221E311D54007B401B /* Debug */,
+				8ECE37231E311D54007B401B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ECE36EB1E311D54007B401B /* Project object */;
+}
